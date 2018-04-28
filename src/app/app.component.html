@@ -2,4 +2,26 @@
 <h2>Here are some links to help you start: </h2>
 
 
+HERO SECTON --
+<Br/>
+-- TEXT
+<br/>
+Grid
+
+
+footer
+
+
+<mat-grid-list cols="3" rowHeight="300px">
+  <mat-grid-tile
+      *ngFor="let tile of tiles"
+      [colspan]="tile.cols"
+      [rowspan]="tile.rows"
+      [style.background]="tile.color">
+    {{tile.text}}
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+
 <mat-card>Simple card</mat-card>
