@@ -9057,7 +9057,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* Header Section */
 .tf-header {
   position: relative;
-  background: url("./images/matthewtwyford-contact-jumbo.jpg") no-repeat center center;
+  background: url("/assets/images/matthewtwyford-contact-jumbo.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
