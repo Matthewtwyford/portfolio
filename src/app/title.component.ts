@@ -12,9 +12,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TitleComponent implements OnInit {
 
-  
   title = "this the title";
-  
+ 
+ 
   constructor() { }
 
   ngOnInit() {
