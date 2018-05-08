@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-family: 'Merriweather', serif!important;
   
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
   letter-spacing: -1.0px;
   
   margin-top: 0;
@@ -9180,10 +9181,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
-@media (max-width: 767.98px) {
-
-}
-
 
 
 /* Footer Section */
@@ -9204,59 +9201,7 @@ footer .tf-design a:hover {
 
 
 
-
-
-/* Quotes Section */
-.tf-quotes-section .carousel-item {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 340px;
-}
-
-.tf-quotes-section .carousel-item::before {
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  width: 100%;
-  height: 340px;
-  content: ' ';
-}
-
-.tf-quotes-section .slider-text-1 {
-  font-weight: 300;
-  font-size: 18px;
-  padding: 0;
-}
-
-.tf-quotes-section .slider-text-2 {
-  font-weight: 400;
-  font-size: 24px;
-}
-
-.tf-quotes-section .carousel-caption {
-  height: 100%;
-  padding: 6rem 4rem;
-}
-
-@media (max-width: 575.98px) {
-  .tf-quotes-section .slider-text-2 {
-    font-size: 12px;
-  }
-  .tf-quotes-section .carousel-caption {
-    padding: 5rem 1rem;
-  }
-  .tf-quotes-section .slider-text-1 {
-    font-size: 14px;
-    padding: 0;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .tf-quotes-section .carousel-caption {
-    padding: 5rem 1rem;
-  }
-  .tf-quotes-section .slider-text-2 {
-    font-size: 20px;
-  }
+.text-shadow, {
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 }
 
