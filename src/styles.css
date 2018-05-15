@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .box {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     border-top-left-radius:0!important;
     border-top-right-radius:0!important;
     border-bottom-left-radius:0!important;
