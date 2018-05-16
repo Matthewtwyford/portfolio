@@ -1,21 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
   template: `
     <div class="card box">
-       <img class="img-fluid"  style='filter: grayscale(100%);' src="/assets/images/clients/remax_logo_matthew_twyford.png" alt="{{ alt }}"/>
+      <img class="img-fluid" src="/assets/images/{{ Img }}" alt="{{ Alt }}">
     </div>
   `,
   styles: []
 })
 export class CardComponent implements OnInit {
 
-  
-  alt = "this this is the alt"
-  
+   @Input() Alt: string;
+   @Input() Img: string;
+   
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 
 }
