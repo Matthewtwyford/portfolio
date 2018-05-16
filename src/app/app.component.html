@@ -135,15 +135,10 @@ photo modal
         <div class="row">
 
 
-		<app-card class="col-md-2 col-sm-6 col-6 pt-2"></app-card>
-		
+         <div *ngFor="let client of clients" class="col-md-2 col-sm-6 col-6 pt-2">
+            <app-card [Alt]="client.alt" [Img]="client.img"></app-card>
 
-
-          <div class="col-md-2 col-sm-6 col-6 pt-2">
-            <div class="card box">
-                <img class="img-fluid"  style='filter: grayscale(100%);' src="/assets/images/clients/remax_logo_matthew_twyford.png" alt="2-start-simple"/>
-            </div>
-          </div>
+		</div>
 
           <div class="col-md-2 col-sm-6 col-6 pt-2">
             <div class="card box">
@@ -218,10 +213,7 @@ photo modal
         <div class="row">
 
           <div class="col-md-6 col-sm-6 col-6 pt-2 pb-3">
-            <app-card 
-  				[Alt]="'TILE'"
-  				[Img]="'/tiles/hc.jpg'"
-			></app-card>
+            <app-card [Alt]="'TILE'" [Img]="'/tiles/hc.jpg'"></app-card>
           </div>
 
           <div class="col-md-6 col-sm-6 col-6 pt-2 pb-3">
