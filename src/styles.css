@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .border{
     position: relative;
-    width: 15%;
+    width: 12%;
     height: 5px;
     background-color: crimson;
     margin: 0 auto;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom-left-radius:0!important;
     border-bottom-right-radius:0!important;
     
-    transition: all 1.5s;
+    transition: all 1.0s;
 }
 
 .box:hover {
