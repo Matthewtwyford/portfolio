@@ -137,7 +137,6 @@ photo modal
 
          <div *ngFor="let client of clients" class="col-md-2 col-sm-6 col-6 pt-2">
             <app-card [Alt]="client.alt" [Img]="client.img"></app-card>
-
 		</div>
  
         </div>
@@ -151,52 +150,15 @@ photo modal
       
       <div class="container">
         <div class="row">
-
-          <div class="col-md-6 col-sm-6 col-6 pt-2 pb-3">
-            <app-card [Alt]="'TILE'" [Img]="'/tiles/hc.jpg'"></app-card>
-          </div>
-
-          <div class="col-md-6 col-sm-6 col-6 pt-2 pb-3">
-            <div class="card box">
-                <img class="img-fluid" src="/assets/images/tiles/remax.jpg" alt="2-start-simple"/>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-sm-6 col-6 pt-2 pb-3">
-            <div class="card box">
-                <img class="img-fluid" src="/assets/images/tiles/cfmh.jpg" alt="2-start-simple"/>
-            </div>
-          </div>
-          
-
-
-
-
-
-
-          <div class="col-md-6 col-sm-6 col-6 pt-2">
-            <div class="card box">
-                <img class="img-fluid" src="/assets/images/tiles/nm.jpg" alt="2-start-simple"/>
-            </div>
-          </div>
-          
-    
-          <div class="col-md-6 col-sm-6 col-6 pt-2 pb-3">
-            <div class="card box">
-                <img class="img-fluid" src="/assets/images/tiles/wal.jpg" alt="2-start-simple"/>
-            </div>
-          </div>    
-    
-
- 
+	         <div *ngFor="let project of projects" class="col-md-6 col-sm-6 col-6 pt-2 pb-3">
+	            <app-card [Alt]="project.alt" [Img]="project.img"></app-card>
+			</div>
         </div>
       </div>
-    
     </div>
 
     
-    
+
     <div id='media' class="section">
 
  		<app-title [Title]="'Media'"></app-title>
